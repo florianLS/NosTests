@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(156, 156, 233);
+}
+.btn{
+    margin-top: 300px;
+    padding: 15px 30px;
+    font-size: 24px;
+    border-radius: 12px;
+    color: #fff;
+    border: 1px solid #3498db;
+    background-color: #3498db;
+    cursor: pointer;
+    box-shadow: 0 9px #2980b9;
+}
+.btn:hover{
+    transform: translateY(3px);
+    box-shadow: 0 6px #2980b9;
+}
+.btn:active {
+    transform: translateY(7px);
+    box-shadow: 0 2px #2980b9;
+}
